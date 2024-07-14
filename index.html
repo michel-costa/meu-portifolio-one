@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link type="text/css" rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css" />
+    <link rel="icon" href="/src/assets/icons/circlevbdol.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Meu Portfólio</title>
+  </head>
+
+  <body>
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+
+    <header>
+      <!-- Cabeçalho do site -->
+      <nav>
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo"></a>
+                <a href="#" data-activates="menu-mobile" class="button-collapse">
+                    <i class="material-icons"></i>
+                </a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="#sobre">Sobre mim</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="#formacao">Formação</a></li>
+          </ul>
+
+          <ul class="side-nav" id="menu-mobile">
+            <li><a href="#sobre">Sobre mim</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="#formacao">Formação</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="autorFoto">
+          <!-- Figura ou imagem relevante -->
+          <div class="nomeAutor">
+              <div class="info">
+                  <h1>Hello World! Meu nome é Michel Costa, sou estudante de Cyber Security</h1>
+                  <br>
+                  <p>Atualmente estou participando do programa ONE, uma parceria da <a
+                    href="https://www.oracle.com/br/"> Oracle </a>com<span
+                          class="o"></span> <a
+                          href="https://www.alura.com.br/"> Alura</a>.</p>
+      </section>
+      <!-- Conteúdo principal do site -->
+      <section id="sobre" class="sec1">
+          <!-- Seção de conteúdo principal -->
+          <div>
+              <h2 class="sec1H2">Sobre mim</h2>
+          </div>
+          <div>
+              <p class="textoP">Sou o Michel Costa e estou em transição de carreira para área de Cibersegurança. Atualmente, dedico meu tempo e energia deredes, programação, cloud e hacking.</p>
+          </div>
+      </section>
+
+      <section id="skills" class="sec2">
+          <!-- Seção de conteúdo principal -->
+          <div>
+              <h2 class="sec2H2">Skills</h2>
+          </div>
+          <br><br>
+          <div class="sec2Img">
+              <img src="/src/assets/icons/html.png" alt="HTML icon">
+              <img src="/src/assets/icons/css.png" alt="CSS icon">
+              <img src="/src/assets/icons/js.png" alt="JavaScript icon">
+              <img src="/src/assets/icons/react.png" alt="React icon">
+          </div>
+      </section>
+      <br><br>
+      <section id="hobbies" class="sec3">
+          <!-- Seção de conteúdo principal -->
+          <div>
+              <h2 class="sec3H2">Hobbies</h2>
+          <p>Meus hobbies são, Ciclismo, Corrida, Fórmula 1(F1), Games, Tecnologia, conteúdos Nerdist, Marvel e DC, Séries, Filmes, Animes, Ouvir música, estudos e práticas em Yoga, Psicologia, Mitologia e Filosofia.</p>
+      </section>
+      <br>
+      <section id="formacao" class="sec4">
+          <!-- Seção de conteúdo principal -->
+          <h2 class="sec4H2">Formação</h2>
+          <br>
+          <aside class="divImg">
+              <article class="sec4A">
+                  <a href="https://www.alura.com.br/" class="alura">
+                      <img src="/src/assets/imgs/alura.png" alt="alura img" class="content-img">
+                  </a>
+                  <table class="icons__img" style="width: 100%; border-spacing: 0;">
+                      <tbody>
+                          <tr>
+                              <td>
+                                  <img src="/src/assets/icons/html.png" alt="" style="max-width: 50px;">
+                                  <img src="/src/assets/icons/css.png" alt="" style="max-width: 50px;">
+                              </td>
+                              <th>HTML e CSS</th>
+                          </tr>
+                          <tr>
+                              <td>
+                                  <img src="/src/assets/icons/js.png" alt="" style="max-width: 50px;">
+                                  <img src="/src/assets/icons/react.png" alt="" style="max-width: 50px;">
+                              </td>
+                              <th>JavaScript e React</th>
+                          </tr>
+                      </tbody>
+                  </table>
+              </article>
+              <article class="sec4C">
+                  <a href="https://skillsforall.com/pt/" class="cisco">
+                      <img src="/src/assets/imgs/cisco.png" alt="cisco" class="content-img">
+                  </a>
+                  <table class="icons__img" style="width: 100%; border-spacing: 0;">
+                      <tr>
+                          <td><img src="/src/assets/icons/ccna-1.jpg" alt="" style="max-width: 50px;"></td>
+                          <th>CCNA 1</th>
+                      </tr>
+                      <tr>
+                          <td><img src="/src/assets/icons/Introduction to Cybersecurity.png" alt="" style="max-width: 50px;"></td>
+                          <th>Introduction to Cybersecurity</th>
+                      </tr>
+                  </table>
+              </article>
+              <article class="sec4Phdb">
+                  <a href="https://hackersdobem.org.br/" class="phdb">
+                      <img src="/src/assets/imgs/proghackersdobem2.png" alt="Programa Hackers do Bem img"
+                          class="content-img">
+                  </a>
+                  <table class="icons__img" style="width: 100%; border-spacing: 0;">
+                      <tr>
+                          <td><img src="/src/assets/icons/cyber-security1.png" alt="" style="max-width: 50px;"></td>
+                          <th>Cyber Segurança</th>
+                      </tr>
+                      <tr>
+                          <td><img src="/src/assets/icons/hacker.png" alt="" style="max-width: 50px;"></td>
+                          <th>Hacking Ético</th>
+                      </tr>
+                  </table>
+              </article>
+              <article class="sec4R">
+                  <a href="https://www.rocketseat.com.br/" class="rocketseat">
+                      <img src="/src/assets/imgs/rocketseat-logo.png" alt="RocketSeat img" class="content-img">
+                  </a>
+                  <table class="icons__img" style="width: 100%; border-spacing: 0;">
+                      <tr>
+                          <td><img src="/src/assets/icons/js.png" alt="" style="max-width: 50px;"></td>
+                          <th>JavaScript</th>
+                      </tr>
+                  </table>
+              </article>
+          </aside>
+      </section>
+      <!-- Further code here -->
+  </main>
+  <br><br><br><br>
+
+  <footer id="footer">
+    Desenvolvido por Michel Costa em © 2024 no Programa ONE, Alura + Oracle.
+    <br>
+    <a href="https://github.com/michel-costa"><img src="/src/assets/icons/github.png"
+            alt="GitHub"></a>
+    <a href="https://www.linkedin.com/in/michelc13/"><img src="/src/assets/icons/linkedin.png"
+            alt="Linkedin"></a>&nbsp;Todos os direitos reservados.
+</footer>
+    <script src="script.js"></script>
+  </body>
+</html>
